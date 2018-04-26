@@ -36,19 +36,23 @@ public class MainActivity extends AppCompatActivity {
 
             long firstNumber=Long.parseLong(firstNumber_main.getText().toString());
             long secondNumber=Long.parseLong(secondNumber_main.getText().toString());
-
+            long res;
             switch (view.getId()) {
                 case R.id.buttonSum_main:
-                    resTextView_main.setText(String.valueOf(firstNumber+secondNumber));
+                    res=firstNumber+secondNumber;
+                    resTextView_main.setText(String.valueOf(res));
                     break;
                 case R.id.buttonSub_main:
-                    resTextView_main.setText(String.valueOf(firstNumber-secondNumber));
+                    res=firstNumber-secondNumber;
+                    resTextView_main.setText(String.valueOf(res));
                     break;
                 case R.id.buttonMul_main:
-                    resTextView_main.setText(String.valueOf(firstNumber*secondNumber));
+                    res=firstNumber*secondNumber;
+                    resTextView_main.setText(String.valueOf(res));
                     break;
                 case R.id.buttonDiv_main:
-                    resTextView_main.setText(String.valueOf(firstNumber/secondNumber));
+                    res=firstNumber/secondNumber;
+                    resTextView_main.setText(String.valueOf(res));
                     break;
             }
 
