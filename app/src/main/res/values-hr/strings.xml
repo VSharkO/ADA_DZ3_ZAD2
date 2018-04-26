@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Jednostavni kalkulator</string>
+    <string name="firstNumberText_main">Unesi prvi broj</string>
+    <string name="secondNumberText_main">Unesi drugi broj</string>
+    <string name="plusSing">+</string>
+    <string name="minusSing">-</string>
+    <string name="devideSing">/</string>
+    <string name="multiplySing">x</string>
+    <string name="wrongInputToast">Morate unijeti brojeve!</string>
+</resources>

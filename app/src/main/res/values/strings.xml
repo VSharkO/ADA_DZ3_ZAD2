@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simple Calculator</string>
+    <string name="firstNumberText_main">Enter first number:</string>
+    <string name="secondNumberText_main">Enter second number:</string>
+    <string name="plusSing">+</string>
+    <string name="minusSing">-</string>
+    <string name="devideSing">/</string>
+    <string name="multiplySing">x</string>
+    <string name="wrongInputToast">You need to enter numbers!</string>
+</resources>
